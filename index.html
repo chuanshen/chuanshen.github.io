@@ -1,60 +1,339 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title></title>
-		<link rel="stylesheet" href="css/index.css"/>
-		<link rel="stylesheet" href="css/index-doc.css"/>
-		<link rel="stylesheet" href="css/bootstrap.min.css" />
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-		
-	</head>
-	<body>
-		<div class="col-md-offset-2 container" >
-				<div id="qr1" class="col-md-4">
-					<img src="img/qr_hservice.png" class="qr-img img-rounded img-responsive center-block">
-					<p class="text-center" style="margin-top: 20px;">路鸽-定位 APP</p>
-				</div>
-			
-				<div id="qr2" class="col-md-4">
-					<img src="img/qr_honeysuper.png" class="qr-img img-rounded img-responsive center-block" >
-					<p class="text-center" style="margin-top: 20px;">路鸽 APP</span>
-					
-				</div>
-		</div>
-		
-		<div class="col-md-7 col-md-offset-3">
-			<blockquote>
-			<h2><strong>简介</strong></h2>
-			</blockquote>
-			<p>随时随地查看对方的位置信息，有效防止老人小孩走失却又无法准确告知你位置信息的尴尬情况。</p>
-			<blockquote>
-			<h2><strong>使用说明</strong></h2>
-			</blockquote>
-			<ol>
-			<li>
-			<p><strong>安装</strong></p>
-			<p>下载并安装‘路鸽-定位’ APP到需要定位的手机上(注意事项：在6.0以上的手机，安装时请允许后台运行、应用自动启动、 信任该应用)</p>
-			<p>下载并安装‘路鸽’APP到自己手机</p>
-			</li>
-			<li>
-			<p><strong>关联设备</strong></p>
-			<p>1）用手机号注册并登录路鸽，新用户会赠送一个激活码，请到我-我的激活码 页面查看</p>
-			<p>2）长按复制激活码</p>
-			<p>3）进入设备页面， 点击+号， 点击扫一扫</p>
-			<p>4）对准‘路鸽-定位’APP中的二维码扫描，会自动填入设备号</p>
-			<p>5）把激活码粘贴到激活码输入框，填写设备的备注信息，点击完成即可绑定设备</p>
-			</li>
-			<li>
-			<p><strong>多台设备切换显示</strong></p>
-			<p>点击首页位置-右上角更换设备， 选择你想要查看的设备</p>
-			</li>
-			<li>
-			<p><strong>今日轨迹</strong></p>
-			<p>点击首页位置-右上角今日轨迹</p>
-			</li>
-			</ol>
-		</div>
-	</body>
+<head>
+<title>wechat</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<p><img src="wechat" /></p>
+<blockquote>
+<h2>简介</h2>
+</blockquote>
+<p>微信自动抢红包，消息防撤回，群消息自动回复，多群同步发送消息</p>
+<blockquote>
+<h2>使用说明</h2>
+</blockquote>
+<p>改软件目前还在持续完善中，可以免费体验</p>
+<p>功能介绍</p>
+<pre><code>群消息自动回复
+    在所有的群里，会根据您设置的关键词和回复内容做回复，并且会自动@发送的人
+
+多群同步发送消息
+    如果想要一条消息发送到多群，可以使用多群同步发送消息功能，在关联的任意一个
+    群组内发送消息，都会转发到其他关联群组(目前只支持文字内容转发)
+</code></pre>
+
+<p>支持的设备</p>
+<pre><code>所有能安装微信的安卓手机（无需root）
+</code></pre>
+
+<p>如何安装</p>
+<pre><code>如果手机安装过微信，请先卸载后安装
+</code></pre>
+
+<p>如何使用自动抢红包</p>
+<pre><code>打开微信-我-设置-红包设置 打开红包开关，建议打开延迟1s再抢开关
+</code></pre>
+
+<p>如何添加自动回复内容</p>
+<pre><code>打开微信-我-设置-自动回复设置-消息自动回复  
+进入页面以后，点击右上角+号进入自动回复内容添加界面
+添加关键词和回复内容点击完成即添加完毕
+</code></pre>
+
+<p>如何绑定多群同步发送消息</p>
+<pre><code>打开微信-我-设置-自动回复设置-多群同步发送消息
+进入页面以后，点击右上角+号进入多群同步发送消息添加界面
+添加关键词和关联群，点击完毕
+</code></pre>
+
+
+</body>
 </html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
